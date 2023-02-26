@@ -11,11 +11,16 @@ library(shinydashboard)
 library(colorspace)
 library(purrr)
 library(htmltools)
+library(markdown)
+library(showtext)
+# Load fonts and set theme
+# font_paths("./fonts")
+# font_add("Quicksand", regular = "quicksand-v24-latin-regular.ttf")
+# showtext_auto()
 
-dir.create("~/.fonts")
-file.copy("cjpowR/www/quicksand-v24-latin-regular.ttf", "~/.fonts")
-system("fc-cache -f ~/.fonts")
-
+# dir.create("~/.fonts")
+# file.copy("cjpowR/www/quicksand-v24-latin-regular.ttf", "~/.fonts")
+# system("fc-cache -f ~/.fonts")
 
 cjpowr_theme <- bs_theme(
     version = 5,
