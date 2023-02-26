@@ -182,7 +182,7 @@ ui <- navbarPage(
                     <br></br>
                     The app runs on the free shinyapps.io platform by RStudio and, thus, only has a limited runtime per month/users.
                     As all conditional inputs were scripted on the ui side and not within the server function, the online version of the app should run pretty smoothly.
-                    If you encounter any performance issues, you can run the app locally from GitHub.
+                    If you encounter any performance issues, you can run the app locally from <a href='https://github.com/m-freitag/power_app/tree/master/cjpowR'>GitHub</a>.
                     <br></br>
                     Please report any bugs or feature requests to the GitHub issues page.
                     <br></br>
